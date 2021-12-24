@@ -1,0 +1,25 @@
+nav{
+    position: sticky;
+    top: 0px;
+}
+.btn{
+    background-color: #058905;
+    color: white;
+}
+.btn:hover{
+    background-color: darkgreen;
+}
+.heading{
+    height: 84px;
+    color: #dc3545;
+    background-color: #f7f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-button:not(.collapsed){
+    color: white;
+}
+#accordianExample{
+    margin-bottom: 5px;
+}
